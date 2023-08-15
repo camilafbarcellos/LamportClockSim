@@ -62,4 +62,4 @@ Vetor de tempos do processo 2: [0, 9, 18, 27, 36, 45, 54, 63, 72, 81]
 Vetor de tempos do processo 3: [0, 8, 16, 24, 32, 40, 48, 56, 64, 72]
 ```
 
-_© Camila Barcellos 2023 - IFSul_
+_© [Camila Barcellos](https://github.com/camilafbarcellos) 2023 - IFSul_
