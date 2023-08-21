@@ -16,6 +16,8 @@ Programa desenvolvido como atividade da disciplina de Sistemas Distribuídos II 
 
 > **Obs.:** ao informar o tempo de origem/destino, deve-se informar o seu **índice** no vetor do processo
 
+4. Após a simulação, informe se deseja ou não realizar outra (s/n).
+
 ## Notas
 
 - O programa utiliza a biblioteca ``random`` para gerar incrementos aleatórios nos vetores de tempos.
@@ -38,28 +40,34 @@ Programa desenvolvido como atividade da disciplina de Sistemas Distribuídos II 
 Número de processos: 3
 
 Relógios lógicos:
-Vetor de tempos do processo 1: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
-Vetor de tempos do processo 2: [0, 9, 18, 27, 36, 45, 54, 63, 72, 81]
-Vetor de tempos do processo 3: [0, 8, 16, 24, 32, 40, 48, 56, 64, 72]
+P       t0      t1      t2      t3      t4      t5      t6      t7      t8      t9
+----------------------------------------------------------------------------------
+P1      0       1       2       3       4       5       6       7       8       9
+P2      0       3       6       9       12      15      18      21      24      27
+P3      0       8       16      24      32      40      48      56      64      72
 
-Processo de origem: 2
-Tempo de origem: 1
+Processo de origem: 3
+Tempo de origem: 2
 Processo de destino: 1
-Tempo de destino: 3
+Tempo de destino: 4
 
 Relógios lógicos antes da simulação:
-Vetor de tempos do processo 1: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
-Vetor de tempos do processo 2: [0, 9, 18, 27, 36, 45, 54, 63, 72, 81]
-Vetor de tempos do processo 3: [0, 8, 16, 24, 32, 40, 48, 56, 64, 72]
+P       t0      t1      t2      t3      t4      t5      t6      t7      t8      t9
+----------------------------------------------------------------------------------
+P1      0       1       2       3       4       5       6       7       8       9
+P2      0       3       6       9       12      15      18      21      24      27
+P3      0       8       16      24      32      40      48      56      64      72
 
-EVENTO p2(9) ➜ p1(6)
-  send: P[1][1] = 9
-  receive: P[0][3] = 6
+EVENTO P3(16) → P1(4)
+  Emissor: P[2][2] = 16
+  Receptor: P[0][4] = 4
 
 Relógios lógicos após a simulação:
-Vetor de tempos do processo 1: [0, 2, 4, 10, 12, 14, 16, 18, 20, 22]
-Vetor de tempos do processo 2: [0, 9, 18, 27, 36, 45, 54, 63, 72, 81]
-Vetor de tempos do processo 3: [0, 8, 16, 24, 32, 40, 48, 56, 64, 72]
+P       t0      t1      t2      t3      t4      t5      t6      t7      t8      t9
+----------------------------------------------------------------------------------
+P1      0       1       2       3       17      18      19      20      21      22
+P2      0       3       6       9       12      15      18      21      24      27
+P3      0       8       16      24      32      40      48      56      64      72
 ```
 
 _© [Camila Barcellos](https://github.com/camilafbarcellos) 2023 - IFSul_
