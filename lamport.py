@@ -111,12 +111,12 @@ def main():
 
     # Banner da aplicação
     print(
-        '\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *'
-        '\n*           > Simulador de Relógios Lógicos de Lamport  <           *'
-        '\n*                                                                   *'
-        '\n*                 Desenvolvido por Camila Barcellos                 *'
-        '\n*                 Sistemas Distribuídos II - 2023/2                 *'
-        '\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *'
+        '\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *'
+        '\n*                  > Simulador de Relógios Lógicos de Lamport  <                  *'
+        '\n*                                                                                 *'
+        '\n*                        Desenvolvido por Camila Barcellos                        *'
+        '\n*                        Sistemas Distribuídos II - 2023/2                        *'
+        '\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *'
     )
 
     # Solicita a quantidade de processos ao usuário

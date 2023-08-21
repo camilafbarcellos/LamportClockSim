@@ -31,12 +31,12 @@ Programa desenvolvido como atividade da disciplina de Sistemas Distribuídos II 
 ## Exemplo de Uso
 
 ```
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-*           > Simulador de Relógios Lógicos de Lamport  <           *
-*                                                                   *
-*                 Desenvolvido por Camila Barcellos                 *
-*                 Sistemas Distribuídos II - 2023/2                 *
-* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*                  > Simulador de Relógios Lógicos de Lamport  <                  *
+*                                                                                 *
+*                        Desenvolvido por Camila Barcellos                        *
+*                        Sistemas Distribuídos II - 2023/2                        *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 Número de processos: 3
 
 Relógios lógicos:
